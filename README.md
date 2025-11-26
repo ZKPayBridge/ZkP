@@ -1,2 +1,0 @@
-# ZkP
-Testing Demo
