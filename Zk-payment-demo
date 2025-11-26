@@ -18,3 +18,15 @@ This demo uses Circom v2 and snarkjs (Groth16). It creates a Poseidon hash commi
 1. Install snarkjs:
 ```bash
 npm install -g snarkjs
+
+2. Install circom: Follow the circom v2 installation steps from the official repo. On many systems:
+
+# build from source (example)
+git clone https://github.com/iden3/circom.git
+cd circom
+npm install
+npm run build
+# then copy circom binary to PATH or use npx
+
+npm install circomlib
+# or clone circomlib into the project circuits/ directory
